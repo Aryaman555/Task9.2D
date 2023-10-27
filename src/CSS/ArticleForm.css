@@ -1,0 +1,53 @@
+.article_header {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.article_header h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.article_title,
+.article_abstract,
+.article_text,
+.article_tag,
+.article_image {
+  margin-bottom: 15px;
+}
+
+.article_title label,
+.article_abstract label,
+.article_text label,
+.article_tag label,
+.article_image h2 {
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+}
+
+input[type="text"],
+input[type="article_text1"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.article_button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+

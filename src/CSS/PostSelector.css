@@ -1,0 +1,37 @@
+.post-selector {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.post-options {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+
+label[for="question"],
+label[for="article"],
+label[for="FindQuestion"] {
+  font-size: 16px;
+}
+
+
+
+ 
+
